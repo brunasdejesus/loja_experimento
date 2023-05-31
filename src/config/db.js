@@ -1,9 +1,11 @@
 const { Pool } = require('pg');
 
 module.exports = new Pool({
-  user: 'postgres',
-  password: 'QAenginner@302',
-  host: 'localhost',
+  user: 'thxewjfb',
+  password: 'EdiHt60Yv2JQ-ZkHpYiqfOHzXheIsES0',
+  host: 'postgres://thxewjfb:EdiHt60Yv2JQ-ZkHpYiqfOHzXheIsES0@silly.db.elephantsql.com/thxewjfb',
   port: 5432,
-  database: 'Loja Virtual - Experimento'
+  database: 'api-launchstore'
 });
+
+
